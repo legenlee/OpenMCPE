@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch",
+      "type": "lldb",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "cargo": {
+        "args": ["build", "--bin=openmcpe"],
+        "filter": {
+          "name": "openmcpe",
+          "kind": "bin"
+        }
+      },
+      "env": {
+        "RUST_LOG": "info"
+      }
+    }
+  ]
+}
