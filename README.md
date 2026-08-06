@@ -25,7 +25,7 @@ To build and run OpenMCPE, you must extract them from the original Minecraft you
 
 ## Building
 
-Required Rust 1.87 or newer (edition 2024).
+Requires Rust 1.87 or newer (edition 2024).
 
 ```sh
 cargo run
